@@ -1,0 +1,83 @@
+body{
+    margin:0;
+    padding:0;
+    
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    background-color:beige;
+    padding:10px;
+    align-items:center;
+    position:sticky;
+    top:0;
+    
+
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    
+   
+}
+nav ul li{
+    margin:0 30px;
+    
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color:black;
+    
+}
+div{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.hero{
+    padding:80px;
+    background-image: url("images/rodion-kutsaiev-IJ25m7fXqtk-unsplash.jpg");
+    background-size: cover;
+    background-position:center ;
+    background-repeat: no-repeat;
+    height:400px;
+    text-align:left;
+    justify-content: space-between;
+    display:flex
+  
+}
+  
+.btn{
+    height:50px;
+    background-color: beige;
+    border-radius:20px;
+    object-fit: cover;
+    dispaly:flex
+   
+    
+    
+}
+.hed{
+    margin-top:100px;
+    text-align:justify;
+    font-size:x-large;
+}
+.me img{
+    justify-content: space-between;
+    border-radius:50px;
+    image-orientation: right;
+    object-fit: cover;
+    height:475px;
+    width: fix-content;
+    aspect-ratio:1 ;
+    object-position: center;
+    text-align:justify;
+ 
+    
+    
+}
+.hero div{
+    font-weight: normal;
+    all:unset;
+}
