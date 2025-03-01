@@ -41,7 +41,7 @@ div{
 
 .hero{
     padding:80px;
-    background-image:url(../images/rodion-kutsaiev-IJ25m7fXqtk-unsplash.jpg);
+    background-image:url("images/rodion-kutsaiev-IJ25m7fXqtk-unsplash.jpg");
     background-size: cover;
     background-position:center ;
     background-repeat: no-repeat;
