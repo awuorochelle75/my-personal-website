@@ -1,9 +1,11 @@
 *{
     scroll-behavior: smooth;
+    
 }
 
 body{
     margin:0;
+   
    
 }
 header{
@@ -58,6 +60,8 @@ div{
     border-radius:20px;
     object-fit: cover;
     color:white;
+    margin-top:50px;
+    width:150px;
     
    
     
@@ -66,8 +70,9 @@ div{
 .hed{
     margin-top:100px;
     text-align:justify;
-    font-size:25px;
+    font-size:27px;
 }
+    
 .me img{
     justify-content: space-between;
     border-radius:50px;
@@ -136,6 +141,8 @@ div{
     font-size: x-large;
     background-color: beige;
     padding:10px;
+    justify-content: space-between;
+    display:flex;
 }
 .footer{
     background-color:black;
@@ -146,4 +153,38 @@ div{
 footer a img{
     margin:10px;
     
+}
+.contact1{
+    all:unset;
+    display:grid;
+    justify-content: space-between;
+    align-items:right;
+}
+.contact2{
+   all:unset;
+}
+input{
+    padding:5px;
+    width: 300px;
+    height:50px;
+    background-color: beige;
+    border-radius: 20px;
+}
+textarea{
+    margin-top:5px;
+    height:60px;
+    width:400px;
+    background-color: beige;
+    border-radius: 20px; 
+    text-align: left;
+    padding:6px;
+
+}
+.btn1{
+    width:200px;
+    height:40px;
+    background-color:#ffd700; 
+    align-items: center;
+    border-radius: 20px;
+
 }
