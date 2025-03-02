@@ -1,10 +1,17 @@
+
+@import url("mediaq.css");
+
 *{
     scroll-behavior: smooth;
+    padding:0;
+    box-sizing: border box;
     
 }
 
 body{
     margin:0;
+    padding:0;
+    box-sizing:border-box;
    
    
 }
@@ -69,20 +76,22 @@ div{
 }
 .hed{
     margin-top:100px;
-    text-align:justify;
-    font-size:27px;
+    text-align:left;
+    font-size:28px;
+
 }
     
 .me img{
     justify-content: space-between;
     border-radius:50px;
     image-orientation: right;
-    object-fit: cover;
+    object-fit:cover;
     height:475px;
     width: fix-content;
     aspect-ratio:1 ;
     object-position: center;
     text-align:justify;
+    display:flex;
  
     
     
@@ -183,8 +192,9 @@ textarea{
 .btn1{
     width:200px;
     height:40px;
-    background-color:#ffd700; 
+    background-color:#ffd700;; 
     align-items: center;
     border-radius: 20px;
+    color:black;
 
 }
