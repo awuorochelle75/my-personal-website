@@ -44,6 +44,10 @@ nav ul li a{
     color:white;
     
 }
+.links:hover{
+    color:#ffd700;
+    text-decoration:underline;
+}
 div{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
