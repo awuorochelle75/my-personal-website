@@ -210,3 +210,10 @@ textarea{
     color:black;
 
 }
+
+.download{
+    border-radius: 8px;
+    padding: 12px 24px;
+    display: inline-block;
+    background-color:#ffd700;
+}
