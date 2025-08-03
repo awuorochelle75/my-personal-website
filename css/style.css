@@ -18,12 +18,12 @@ body{
 header{
     display:flex;
     justify-content: space-between;
-    background-color:black;
+    background-color:white;
     padding:10px;
     align-items:center;
     position:sticky;
     top:0;
-    color: white;
+    color: black;
     
 
 }
@@ -41,7 +41,7 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
-    color:white;
+    color:black;
     
 }
 .links:hover{
@@ -54,7 +54,8 @@ div{
 
 .hero{
     padding:80px;
-    background-image:url("../images/yellow.jpg");
+    /*background-image:url("../images/yellow.jpg"); */
+    background-color:whitesmoke;
     background-size: cover;
     background-position:center ;
     background-repeat: no-repeat;
@@ -81,8 +82,15 @@ div{
 .hed{
     margin-top:100px;
     text-align:left;
-    font-size:28px;
+    font-size:30px;
+    color:black
+    
 
+}
+
+.hero-par{
+    color:black;
+    font-size: 2rem;
 }
     
 .me img{
