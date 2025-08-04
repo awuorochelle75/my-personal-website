@@ -88,6 +88,11 @@ div{
 
 }
 
+.hed2{
+    font-size: 30px;
+}
+
+
 .hero-par{
     color:black;
     font-size: 2rem;
@@ -116,8 +121,8 @@ div{
 .about{
     padding:20px;
    font-size: x-large;
-   background-color: beige;
-   text-align: justify;
+   background-color: white;
+   text-align: center;
 }
 
 
@@ -216,4 +221,16 @@ textarea{
     padding: 12px 24px;
     display: inline-block;
     background-color:#ffd700;
+    text-decoration: none;
+    margin-top: 15px;
+    
+}
+
+.download:hover{
+    background-color: black;
+    color:white;
+}
+
+.social-media{
+
 }
