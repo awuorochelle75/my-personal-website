@@ -18,12 +18,12 @@ body{
 header{
     display:flex;
     justify-content: space-between;
-    background-color:white;
+    background-color:black;
     padding:10px;
     align-items:center;
     position:sticky;
     top:0;
-    color: black;
+    color: white;
     
 
 }
@@ -41,7 +41,7 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
-    color:black;
+    color:white;
     
 }
 .links:hover{
@@ -140,21 +140,26 @@ div{
     padding:20px;
     gap:2px;
     flex-direction:column;
-    background-color: beige;
-    font-size: x-large;
+    background-color: white;
+    font-size: 20px;
     
    
 }
+
+.projects{
+    text-align: center;
+    
+}
 .cards{
     all:unset;
-    background:#ffd700;
+    background:whitesmoke;
     border-radius:20px;
     padding:10px;
    justify-content: space-between;
     width:60%;
     height:60%;  
     margin-top:20px;
-    font-size: x-large;
+    font-size: 20px;
 
 }
 .skills{
@@ -231,6 +236,17 @@ textarea{
     color:white;
 }
 
-.social-media{
+.github{
+    border-radius: 8px;
+    padding: 12px 24px;
+    display: inline-block;
+    background-color:#ffd700;
+    text-decoration: none;
+    margin-top: 15px;
+    color:purple
+}
 
+.github:hover{
+     background-color: black;
+     color:white;
 }
