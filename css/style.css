@@ -162,18 +162,19 @@ div{
     font-size: 20px;
 
 }
-.skills{
+.interests{
     font-size: x-large;
-    background-color: beige;
+    background-color: white;
     padding:10px;
     object-fit:cover ;
+    text-align: center;
 }
 .contact{
     font-size: x-large;
-    background-color: beige;
+    background-color: white;
     padding:10px;
-    justify-content: space-between;
-    display:flex;
+    text-align:center;
+   
 }
 .footer{
     background-color:black;
@@ -185,15 +186,7 @@ footer a img{
     margin:10px;
     
 }
-.contact1{
-    all:unset;
-    display:grid;
-    justify-content: space-between;
-    align-items:right;
-}
-.contact2{
-   all:unset;
-}
+
 input{
     padding:5px;
     width: 300px;
